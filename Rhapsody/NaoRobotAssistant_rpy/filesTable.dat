@@ -1,0 +1,11 @@
+I-Logix-RPY-Archive version 8.7.1 * 5066837
+
+- filesTable = { IRPYRawContainer 
+	- size = 4;
+	- value = "NaoRobotAssistant.rpy" ""
+	"NaoRobotAssistant_rpy\\Default.sbs" "Default"
+	"NaoRobotAssistant_rpy\\DefaultComponent.cmp" "DefaultComponent"
+	"NaoRobotAssistant_rpy\\Intruder.sbs" "Intruder"
+	
+}
+
