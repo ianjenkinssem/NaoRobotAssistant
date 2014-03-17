@@ -32,6 +32,30 @@ I-Logix-RPY-Archive version 8.7.1 Java 5066837
 			- _id = GUID 93e40094-5776-48d2-9295-6964c33e088b;
 			- _myState = 8192;
 			- _name = "DefaultConfig";
+			- HyperLinks = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IMHyperLink 
+					- _id = GUID be8f3a49-f398-4136-9a2c-a38a06e62a2e;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "";
+					}
+					- _linkDispName = "Edit Makefile";
+					- _linkType = "FREE";
+					- _linkTarget = "C:/Users/gina/Documents/GitHub/NaoRobotAssistant/Rhapsody/DefaultComponent/DefaultConfig/DefaultComponent.bat";
+					- isConfigurationFileHyperLink = 1;
+				}
+				{ IMHyperLink 
+					- _id = GUID 3e082749-d80c-4341-9380-982d29ff25ae;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "";
+					}
+					- _linkDispName = "Edit Main File";
+					- _linkType = "FREE";
+					- _linkTarget = "C:/Users/gina/Documents/GitHub/NaoRobotAssistant/Rhapsody/DefaultComponent/DefaultConfig/MainDefaultComponent";
+					- isConfigurationFileHyperLink = 1;
+				}
+			}
 			- _scopeType = Explicit;
 			- _libraries = "";
 			- _additionalSources = "";
@@ -62,8 +86,8 @@ I-Logix-RPY-Archive version 8.7.1 Java 5066837
 					- size = 0;
 				}
 			}
-			- weakCGTime = 1.1.1970::1:0:0;
-			- strongCGTime = 1.1.1970::1:0:0;
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
 			- AnimScopeElements = { IRPYRawContainer 
 				- size = 0;
 			}
@@ -72,7 +96,7 @@ I-Logix-RPY-Archive version 8.7.1 Java 5066837
 		}
 	}
 	- HandlesInMe = { IRPYRawContainer 
-		- size = 3;
+		- size = 4;
 		- value = 
 		{ IHandle 
 			- _m2Class = "ISubsystem";
@@ -81,6 +105,14 @@ I-Logix-RPY-Archive version 8.7.1 Java 5066837
 			- _class = "";
 			- _name = "Default";
 			- _id = GUID 1a0d8f39-8b64-47eb-b4bf-25c9b29b1195;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "NaoRobotAssistant.sbs";
+			- _subsystem = "Default";
+			- _class = "";
+			- _name = "NaoRobotAssistant";
+			- _id = GUID 2fac6ee3-785f-4d8c-b882-84cf59cac44e;
 		}
 		{ IHandle 
 			- _m2Class = "IProfile";
@@ -106,6 +138,6 @@ I-Logix-RPY-Archive version 8.7.1 Java 5066837
 		- size = 0;
 	}
 	- weakCGTime = 3.13.2014::13:8:8;
-	- strongCGTime = 1.1.1970::1:0:0;
+	- strongCGTime = 1.2.1990::0:0:0;
 }
 
