@@ -5,7 +5,7 @@ I-Logix-RPY-Archive version 8.7.1 * 5066837
 	}
 	- isLoadOnDemand = 0;
 	- myViewsWithID = { IRPYRawContainer 
-		- size = 4;
+		- size = 5;
 		- value = 
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
@@ -16,52 +16,24 @@ I-Logix-RPY-Archive version 8.7.1 * 5066837
 				- m_ptMinPositionY = -1;
 				- m_ptMaxPositionX = -8;
 				- m_ptMaxPositionY = -31;
-				- m_nLeft = 78;
-				- m_nTop = 78;
-				- m_nRight = 799;
-				- m_nBottom = 343;
+				- m_nLeft = 156;
+				- m_nTop = 156;
+				- m_nRight = 855;
+				- m_nBottom = 482;
 			}
 			- _wasOpenedOnCloseProject = 1;
 			- _theDiagram = { IHandle 
 				- _m2Class = "IDiagram";
-				- _filename = "";
-				- _subsystem = "";
+				- _filename = "Intruder.sbs";
+				- _subsystem = "Intruder";
 				- _class = "";
-				- _name = "Architecture";
-				- _id = GUID b0191ace-aaa2-417c-b2ed-dcfe74edd063;
+				- _name = "Intruder";
+				- _id = GUID 05a2608f-b13f-406c-8f66-b54efef0b2a9;
 			}
 			- _UpLeft = 0 0 ;
-			- _DownRight = 684 205 ;
+			- _DownRight = 1185 476 ;
 			- _instanceName = "";
-			- m_nDiagramIndex = 3;
-		}
-		{ CGEMdiDiagramParams 
-			- _placement = { CCommon_WINDOWPLACEMENT 
-				- m_nLength = 44;
-				- m_nFlags = 0;
-				- m_showCmd = 1;
-				- m_ptMinPositionX = -1;
-				- m_ptMinPositionY = -1;
-				- m_ptMaxPositionX = -8;
-				- m_ptMaxPositionY = -31;
-				- m_nLeft = 130;
-				- m_nTop = 130;
-				- m_nRight = 823;
-				- m_nBottom = 491;
-			}
-			- _wasOpenedOnCloseProject = 1;
-			- _theDiagram = { IHandle 
-				- _m2Class = "IUCDiagram";
-				- _filename = "NaoRobotAssistant.sbs";
-				- _subsystem = "Default::NaoRobotAssistant";
-				- _class = "";
-				- _name = "NaoUseCases";
-				- _id = GUID cbe7e195-50af-40ee-8bf7-6964e177c50a;
-			}
-			- _UpLeft = 0 0 ;
-			- _DownRight = 676 310 ;
-			- _instanceName = "";
-			- m_nDiagramIndex = 1;
+			- m_nDiagramIndex = 2;
 		}
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
@@ -87,9 +59,37 @@ I-Logix-RPY-Archive version 8.7.1 * 5066837
 				- _id = GUID 65c7bfad-eca9-4101-bf17-ff0a727cf969;
 			}
 			- _UpLeft = 0 40 ;
-			- _DownRight = 834 516 ;
+			- _DownRight = 901 541 ;
 			- _instanceName = "";
-			- m_nDiagramIndex = 2;
+			- m_nDiagramIndex = 4;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -8;
+				- m_ptMaxPositionY = -31;
+				- m_nLeft = 130;
+				- m_nTop = 130;
+				- m_nRight = 851;
+				- m_nBottom = 491;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IMSC";
+				- _filename = "Intruder.sbs";
+				- _subsystem = "Intruder";
+				- _class = "";
+				- _name = "UCR2";
+				- _id = GUID a93e530f-a8f3-4efd-b17d-0d7ad6155a66;
+			}
+			- _UpLeft = 0 0 ;
+			- _DownRight = 684 281 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 0;
 		}
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
@@ -114,10 +114,38 @@ I-Logix-RPY-Archive version 8.7.1 * 5066837
 				- _name = "UCRHardware";
 				- _id = GUID 59d777e2-9b39-40e9-86e6-a7b54c6845f5;
 			}
-			- _UpLeft = 26 0 ;
-			- _DownRight = 797 330 ;
+			- _UpLeft = 0 160 ;
+			- _DownRight = 1536 818 ;
 			- _instanceName = "";
-			- m_nDiagramIndex = 0;
+			- m_nDiagramIndex = 3;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -8;
+				- m_ptMaxPositionY = -31;
+				- m_nLeft = 104;
+				- m_nTop = 104;
+				- m_nRight = 919;
+				- m_nBottom = 465;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IMSC";
+				- _filename = "SpellCheck.sbs";
+				- _subsystem = "SpellCheck";
+				- _class = "";
+				- _name = "UCR Hardware SpellCheck";
+				- _id = GUID 7b98903b-30b1-4959-949d-e73b10c91169;
+			}
+			- _UpLeft = 0 0 ;
+			- _DownRight = 1441 520 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 1;
 		}
 	}
 	- _fullName = "C:\\Users\\gina\\Documents\\GitHub\\NaoRobotAssistant\\Rhapsody\\NaoRobotAssistant";
