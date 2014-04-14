@@ -325,7 +325,7 @@ I-Logix-RPY-Archive version 8.7.1 Java 5066837
 				}
 			}
 			- _name = "UCR";
-			- _lastModifiedTime = "4.14.2014::14:7:49";
+			- _lastModifiedTime = "4.14.2014::14:20:44";
 			- _graphicChart = { CGIMscChart 
 				- vLadderMargin = 16;
 				- m_usingActivationBar = 0;
@@ -1539,7 +1539,7 @@ I-Logix-RPY-Archive version 8.7.1 Java 5066837
 					}
 					- m_pParent = ;
 					- m_name = { CGIText 
-						- m_str = "Wait(5seconds)";
+						- m_str = "Wait(5sec)";
 						- m_style = "Arial" 10 0 0 0 1 ;
 						- m_color = { IColor 
 							- m_fgColor = 0;
@@ -2299,7 +2299,7 @@ I-Logix-RPY-Archive version 8.7.1 Java 5066837
 						- _myState = 8192;
 						- _name = "Wait";
 						- m_szSequence = "5.";
-						- m_szActualArgs = "5seconds";
+						- m_szActualArgs = "5sec";
 						- m_szReturnVal = "";
 						- m_pCommunicationConnection = { IHandle 
 							- _m2Class = "";
@@ -5830,7 +5830,7 @@ I-Logix-RPY-Archive version 8.7.1 Java 5066837
 			}
 		}
 	}
-	- weakCGTime = 4.14.2014::13:59:50;
+	- weakCGTime = 4.14.2014::14:20:44;
 	- strongCGTime = 3.17.2014::14:17:12;
 	- _defaultComposite = GUID f21a2f28-5144-40ff-b70b-281bc0e392d5;
 	- _eventsBaseID = -1;

@@ -58,8 +58,8 @@ I-Logix-RPY-Archive version 8.7.1 * 5066837
 				- _name = "UCR";
 				- _id = GUID 65c7bfad-eca9-4101-bf17-ff0a727cf969;
 			}
-			- _UpLeft = 0 240 ;
-			- _DownRight = 1222 920 ;
+			- _UpLeft = 0 270 ;
+			- _DownRight = 1222 950 ;
 			- _instanceName = "";
 			- m_nDiagramIndex = 4;
 		}
