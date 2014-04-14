@@ -1,0 +1,28 @@
+I-Logix-RPY-Archive version 8.7.1 Java 5066837
+{ ISubsystem 
+	- _id = GUID d4c0a132-dd6e-440c-9747-be4668e1a273;
+	- _myState = 8192;
+	- _name = "Spelling";
+	- weakCGTime = 4.14.2014::10:41:11;
+	- strongCGTime = 4.14.2014::10:41:11;
+	- _defaultComposite = GUID b1ec8f29-d53b-4151-b2c9-8d350467d236;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IClass 
+			- _id = GUID b1ec8f29-d53b-4151-b2c9-8d350467d236;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- weakCGTime = 1.1.1970::1:0:0;
+			- strongCGTime = 1.1.1970::1:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 1.1.1970::1:0:0;
+}
+

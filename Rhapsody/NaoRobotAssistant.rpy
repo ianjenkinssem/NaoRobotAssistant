@@ -3,7 +3,7 @@ I-Logix-RPY-Archive version 8.7.1 Java 5066837
 	- _id = GUID a3869bf5-0fe2-4228-a0ee-097b3a025b36;
 	- _myState = 8192;
 	- _name = "NaoRobotAssistant";
-	- _lastID = 1;
+	- _lastID = 2;
 	- _UserColors = { IRPYRawContainer 
 		- size = 16;
 		- value = 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 16777215; 
@@ -45,7 +45,7 @@ I-Logix-RPY-Archive version 8.7.1 Java 5066837
 		}
 	}
 	- Subsystems = { IRPYRawContainer 
-		- size = 3;
+		- size = 4;
 		- value = 
 		{ ISubsystem 
 			- fileName = "Default";
@@ -60,6 +60,10 @@ I-Logix-RPY-Archive version 8.7.1 Java 5066837
 		{ ISubsystem 
 			- fileName = "Intruder";
 			- _id = GUID dcd9c92b-85e3-41cc-bc20-10bdf5506413;
+		}
+		{ ISubsystem 
+			- fileName = "SpellCheck";
+			- _id = GUID d4c0a132-dd6e-440c-9747-be4668e1a273;
 		}
 	}
 	- Diagrams = { IRPYRawContainer 
@@ -138,7 +142,28 @@ I-Logix-RPY-Archive version 8.7.1 Java 5066837
 					- m_nNameFormat = 0;
 					- m_nIsNameFormat = 0;
 					- Compartments = { IRPYRawContainer 
-						- size = 0;
+						- size = 2;
+						- value = 
+						{ CGICompartment 
+							- _id = GUID 25d3a8ba-7db3-41a4-b2fa-9a9494145cf7;
+							- m_name = "Attribute";
+							- m_displayOption = Explicit;
+							- m_bShowInherited = 0;
+							- m_bOrdered = 0;
+							- Items = { IRPYRawContainer 
+								- size = 0;
+							}
+						}
+						{ CGICompartment 
+							- _id = GUID e6c648ad-36b4-4a4c-9131-894e4d1dd8ec;
+							- m_name = "Operation";
+							- m_displayOption = Explicit;
+							- m_bShowInherited = 0;
+							- m_bOrdered = 0;
+							- Items = { IRPYRawContainer 
+								- size = 0;
+							}
+						}
 					}
 					- Attrs = { IRPYRawContainer 
 						- size = 0;
